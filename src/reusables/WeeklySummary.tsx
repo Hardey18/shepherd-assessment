@@ -11,6 +11,7 @@ import React from "react";
 import { PiCards } from "react-icons/pi";
 import { AiTwotoneThunderbolt } from "react-icons/ai";
 import { Performance } from "./Performance";
+import Carousel from "./Carousel";
 
 export function WeeklySummary() {
   return (
@@ -83,10 +84,7 @@ export function WeeklySummary() {
             </Box>
           </Box>
         </SimpleGrid>
-        <SimpleGrid
-          columns={2}
-          borderTop={"1px solid #e6e6e6"}
-        >
+        <SimpleGrid columns={2} borderTop={"1px solid #e6e6e6"}>
           <Box py={6} px={4} borderRight={"1px solid #e6e6e6"}>
             <Text
               color={useColorModeValue("gray.500", "gray.900")}
@@ -100,7 +98,7 @@ export function WeeklySummary() {
             <Performance text="Didn't remember" color="orange" percent="40%" />
             <Performance text="Got it wrong" color="red" percent="20%" />
           </Box>
-          <Box>Studied</Box>
+          <Carousel />
         </SimpleGrid>
         <SimpleGrid
           bg="#e6e6e6"
