@@ -17,7 +17,7 @@ import { CgNotes } from "react-icons/cg";
 import { PiCards } from "react-icons/pi";
 import { TbPinned } from "react-icons/tb";
 
-import { NavItem } from "./NavItem";
+import { NavItem } from "../reusables/NavItem";
 
 export const SidebarContent = ({ ...props }: BoxProps) => (
   <Box
