@@ -11,6 +11,16 @@ import {
 import { RiFlashlightFill } from "react-icons/ri";
 import { AiOutlineTeam, AiOutlineHome } from "react-icons/ai";
 import { BsFolder2, BsCalendarCheck } from "react-icons/bs";
+import { RiHome7Fill } from "react-icons/ri";
+import { CgBriefcase } from "react-icons/cg";
+import { RiMessage2Line } from "react-icons/ri";
+import { BsPlayCircle } from "react-icons/bs";
+import { WiStars } from "react-icons/wi";
+import { HiOutlineDocumentReport } from "react-icons/hi";
+import { TbReportAnalytics } from "react-icons/tb";
+import { CgNotes } from "react-icons/cg";
+import { PiCards } from "react-icons/pi";
+import { TbPinned } from "react-icons/tb";
 
 import { NavItem } from "./NavItem";
 import { NavLink } from "react-router-dom";
@@ -40,22 +50,22 @@ export const SidebarContent = ({ ...props }: BoxProps) => (
       aria-label="Main Navigation"
       mt={12}
     >
-      <NavItem icon={AiOutlineHome} link="/">
+      <NavItem icon={RiHome7Fill} link="/">
         Home
       </NavItem>
-      <NavItem icon={AiOutlineTeam} link="/tutor">
+      <NavItem icon={CgBriefcase} link="/tutor">
         Find A Tutor
       </NavItem>
-      <NavItem icon={BsFolder2}>Messages</NavItem>
-      <NavItem icon={BsCalendarCheck}>Library</NavItem>
+      <NavItem icon={RiMessage2Line}>Messages</NavItem>
+      <NavItem icon={BsPlayCircle}>Library</NavItem>
       <Divider mb="4" />
-      <NavItem icon={BsCalendarCheck}>Ask Shepherd</NavItem>
-      <NavItem icon={BsCalendarCheck}>Performance</NavItem>
-      <NavItem icon={BsCalendarCheck}>Study Plans</NavItem>
-      <NavItem icon={BsCalendarCheck}>Notes</NavItem>
-      <NavItem icon={BsCalendarCheck}>Flashcards</NavItem>
+      <NavItem icon={WiStars}>Ask Shepherd</NavItem>
+      <NavItem icon={HiOutlineDocumentReport}>Performance</NavItem>
+      <NavItem icon={TbReportAnalytics}>Study Plans</NavItem>
+      <NavItem icon={CgNotes}>Notes</NavItem>
+      <NavItem icon={PiCards}>Flashcards</NavItem>
       <Divider mb="4" />
-      <NavItem icon={BsCalendarCheck}>Pinned Notes</NavItem>
+      <NavItem icon={TbPinned}>Pinned Notes</NavItem>
     </Flex>
   </Box>
 );
