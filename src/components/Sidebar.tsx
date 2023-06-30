@@ -2,15 +2,10 @@ import React, { useState } from "react";
 import {
   Box,
   Flex,
-  Icon,
-  Text,
   BoxProps,
   useColorModeValue,
   Divider,
 } from "@chakra-ui/react";
-import { RiFlashlightFill } from "react-icons/ri";
-import { AiOutlineTeam, AiOutlineHome } from "react-icons/ai";
-import { BsFolder2, BsCalendarCheck } from "react-icons/bs";
 import { RiHome7Fill } from "react-icons/ri";
 import { CgBriefcase } from "react-icons/cg";
 import { RiMessage2Line } from "react-icons/ri";
@@ -23,7 +18,6 @@ import { PiCards } from "react-icons/pi";
 import { TbPinned } from "react-icons/tb";
 
 import { NavItem } from "./NavItem";
-import { NavLink } from "react-router-dom";
 
 export const SidebarContent = ({ ...props }: BoxProps) => (
   <Box

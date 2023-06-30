@@ -20,8 +20,14 @@ export const NavItem = (props: any) => {
         role="group"
         fontWeight="semibold"
         transition=".15s ease"
-        background={location === link ? useColorModeValue("blue.50", "blue.900") : ""}
-        color={location === link ? useColorModeValue("blue.500", "blue.900") : useColorModeValue("gray.500", "gray.900")}
+        background={
+          location === link ? useColorModeValue("blue.50", "blue.900") : ""
+        }
+        color={
+          location === link
+            ? useColorModeValue("blue.500", "blue.900")
+            : useColorModeValue("gray.500", "gray.900")
+        }
         _hover={{
           bg: useColorModeValue("blue.100", "blue.900"),
           color: useColorModeValue("blue.900", "blue.200"),
