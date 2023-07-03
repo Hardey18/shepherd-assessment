@@ -6,7 +6,6 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
-import React from "react";
 import { PiCards } from "react-icons/pi";
 import { AiTwotoneThunderbolt } from "react-icons/ai";
 import { Performance } from "./Performance";

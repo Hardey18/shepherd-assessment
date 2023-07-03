@@ -1,4 +1,4 @@
-import { Box, Grid, GridItem, SimpleGrid, Text } from "@chakra-ui/react";
+import { Grid, GridItem } from "@chakra-ui/react";
 
 export function SecondSection() {
   return (

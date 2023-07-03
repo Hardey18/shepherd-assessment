@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import Chart from "react-apexcharts";
 
-class BarChart extends Component {
+class BarChart extends Component<any, any> {
   constructor(props: any) {
     super(props);
     this.state = {
-      chartData: [] as any,
+      chartData: [],
       chartOptions: {},
     };
   }

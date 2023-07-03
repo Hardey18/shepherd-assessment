@@ -1,10 +1,6 @@
 import {
-  Box,
   Grid,
   GridItem,
-  SimpleGrid,
-  Text,
-  useColorModeValue,
 } from "@chakra-ui/react";
 import { WeeklySummary } from "../reusables/WeeklySummary";
 import { Chart } from "./Chart";

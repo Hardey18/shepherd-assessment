@@ -1,4 +1,3 @@
-import React from "react";
 import { Heading, Stack, Text, useColorModeValue } from "@chakra-ui/react";
 import { BsCloudLightningRainFill } from "react-icons/bs";
 import { CircleIcon } from "../reusables/CircleIcon";

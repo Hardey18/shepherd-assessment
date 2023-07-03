@@ -1,4 +1,3 @@
-import React from "react";
 import { Flex, Icon, useColorModeValue } from "@chakra-ui/react";
 import { NavLink, useLocation } from "react-router-dom";
 
