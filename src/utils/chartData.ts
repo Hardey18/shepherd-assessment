@@ -1,3 +1,5 @@
+import { AiFillFilePdf, AiTwotoneThunderbolt } from "react-icons/ai";
+
 export const barChartDataDailyTraffic = [
     {
         name: "Latest quiz score",
