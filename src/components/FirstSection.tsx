@@ -7,6 +7,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { WeeklySummary } from "../reusables/WeeklySummary";
+import { Chart } from "./Chart";
 
 export function FirstSection() {
   return (
@@ -33,7 +34,7 @@ export function FirstSection() {
           bg="#e6e6e6"
           borderRadius={16}
         >
-          Second
+          <Chart />
         </GridItem>
       </Grid>
     </div>

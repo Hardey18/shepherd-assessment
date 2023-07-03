@@ -7,7 +7,6 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import Slider from "react-slick";
-import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { AiTwotoneThunderbolt } from "react-icons/ai";
 import { BsFire } from "react-icons/bs";
@@ -15,7 +14,6 @@ import { TbPentagonFilled } from "react-icons/tb";
 
 // Settings for the slider
 const settings = {
-  //   dots: true,
   arrows: false,
   fade: true,
   infinite: true,
@@ -27,8 +25,6 @@ const settings = {
 };
 
 export default function Carousel() {
-  // As we have used custom buttons, we need a reference variable to
-  // change the state
   const [slider, setSlider] = React.useState<Slider | null>(null);
 
   // These are the breakpoints which changes the position of the
@@ -36,7 +32,7 @@ export default function Carousel() {
   const top = useBreakpointValue({ base: "90%", md: "50%" });
   const side = useBreakpointValue({ base: "30%", md: "0" });
 
-  // These are the images used in the slide
+  // Data used in the slide
   const cards = [
     {
       id: 1,
@@ -58,13 +54,7 @@ export default function Carousel() {
   ];
 
   return (
-    <Box
-      position={"relative"}
-      //   height={"600px"}
-      width={"full"}
-      //   overflow={"hidden"}
-    >
-      {/* CSS files for react-slick */}
+    <Box position={"relative"} width={"full"}>
       <link
         rel="stylesheet"
         type="text/css"
@@ -81,8 +71,6 @@ export default function Carousel() {
         aria-label="left-arrow"
         background={"none"}
         display={{ base: "none", md: "flex" }}
-        // colorScheme="messenger"
-        // borderRadius="full"
         position="absolute"
         left={side}
         top={top}
@@ -97,8 +85,6 @@ export default function Carousel() {
         aria-label="right-arrow"
         background={"none"}
         display={{ base: "none", md: "flex" }}
-        // colorScheme="messenger"
-        // borderRadius="full"
         position="absolute"
         right={side}
         top={top}
@@ -125,7 +111,11 @@ export default function Carousel() {
             >
               {card.icon}
             </Box>
-            <Text fontSize={{ base: "x-small", md: "sm" }} fontWeight={"bold"} mt={3}>
+            <Text
+              fontSize={{ base: "x-small", md: "sm" }}
+              fontWeight={"bold"}
+              mt={3}
+            >
               {card.text}
             </Text>
             <Text
