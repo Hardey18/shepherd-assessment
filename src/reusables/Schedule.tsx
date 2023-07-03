@@ -12,7 +12,7 @@ export function Schedule() {
         alignItems={"center"}
         borderBottom={"1px solid #e6e6e6"}
       >
-        <BiSolidStopwatch color={"rgba(67, 24, 255, 1)"} />
+        <BiSolidStopwatch color={"#4d4dff"} />
         <Text
           fontSize={{ base: "x-small", md: "sm" }}
           fontWeight={"bold"}

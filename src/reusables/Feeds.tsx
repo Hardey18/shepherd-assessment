@@ -1,15 +1,16 @@
 import { Box, SimpleGrid, Text, useColorModeValue } from "@chakra-ui/react";
 
-export function Feeds({ icon, fileIcon, time, description, documentName }: any) {
+export function Feeds({
+  icon,
+  fileIcon,
+  time,
+  description,
+  documentName,
+}: any) {
   return (
     <div>
       <SimpleGrid display={"flex"} alignItems={"flex-start"} p={4}>
-        <Box
-          background={useColorModeValue("orange.100", "orange.500")}
-          p={4}
-          rounded={"full"}
-          marginRight={4}
-        >
+        <Box background={"#ffebcc"} p={4} rounded={"full"} marginRight={4}>
           {icon}
         </Box>
         <Box>
@@ -22,7 +23,15 @@ export function Feeds({ icon, fileIcon, time, description, documentName }: any) 
           <Text fontWeight={"bold"} fontSize={{ base: "x-small", md: "sm" }}>
             {description}
           </Text>
-          <Box display={"flex"} alignItems={"center"} border={"1px dashed grey"} rounded={"full"} p={2} mt={2} width={"fit-content"}>
+          <Box
+            display={"flex"}
+            alignItems={"center"}
+            border={"1px dashed grey"}
+            rounded={"full"}
+            p={2}
+            mt={2}
+            width={"fit-content"}
+          >
             {fileIcon}
             <Text
               color={useColorModeValue("gray.500", "gray.900")}

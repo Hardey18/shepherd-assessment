@@ -12,7 +12,7 @@ export function Activity() {
       time: "2 hrs ago",
       description: "You uploaded documenttitle.pdf to your workspace",
       documentName: "Documentationtitle.pdf",
-      icon: <AiFillFilePdf color={"orange"} />,
+      icon: <AiFillFilePdf size={20} color={"orange"} />,
       fileIcon: <AiFillFilePdf color={"grey"} />,
     },
     {
@@ -21,7 +21,7 @@ export function Activity() {
       description:
         "You created a new favoriteartistelisttitle.pdf to your workspace",
       documentName: "favoriteartistelist",
-      icon: <HiDocumentText color={"orange"} />,
+      icon: <HiDocumentText size={20} color={"orange"} />,
       fileIcon: <HiDocumentText color={"grey"} />,
     },
     {
@@ -30,7 +30,7 @@ export function Activity() {
       description:
         "You created a new flashcard deck documenttitleflash from documenttitle.pdf",
       documentName: "documenttitleflash",
-      icon: <HiDocumentDuplicate color={"orange"} />,
+      icon: <HiDocumentDuplicate size={20} color={"orange"} />,
       fileIcon: <HiDocumentDuplicate color={"grey"} />,
     },
     {
@@ -39,7 +39,7 @@ export function Activity() {
       description:
         "You made payment of $10.95to Leslie Peters for Chemistry lessons",
       documentName: "payment",
-      icon: <PiReceiptFill color={"orange"} />,
+      icon: <PiReceiptFill size={20} color={"orange"} />,
       fileIcon: <PiReceiptFill color={"grey"} />,
     },
   ];
@@ -51,7 +51,7 @@ export function Activity() {
         alignItems={"center"}
         borderBottom={"1px solid #e6e6e6"}
       >
-        <AiTwotoneThunderbolt color={"rgba(67, 24, 255, 1)"} />
+        <AiTwotoneThunderbolt color={"#4d4dff"} />
         <Text
           fontSize={{ base: "x-small", md: "sm" }}
           fontWeight={"bold"}
