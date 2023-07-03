@@ -31,6 +31,7 @@ export function Events() {
           py={2}
           background={event.background}
           mt={2}
+          mb={4}
         >
           <Text fontSize={{ base: "sm", md: "medium" }} fontWeight={"bold"}>
             {event.title}

@@ -6,7 +6,6 @@ export function SecondSection() {
   return (
     <div>
       <Grid
-        // h={{ base: "600px", md: "300px" }}
         templateRows={{ base: "repeat(8, 1fr)", md: "repeat(2, 1fr)" }}
         templateColumns="repeat(5, 1fr)"
         gap={4}
