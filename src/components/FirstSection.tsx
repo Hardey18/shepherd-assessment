@@ -7,7 +7,6 @@ export function FirstSection() {
   return (
     <div>
       <Grid
-        h={{ base: "600px", md: "400px" }}
         templateRows={{ base: "repeat(8, 1fr)", md: "repeat(2, 1fr)" }}
         templateColumns="repeat(5, 1fr)"
         gap={4}
