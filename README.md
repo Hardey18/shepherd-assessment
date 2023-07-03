@@ -1,6 +1,6 @@
-# Shepherd Full stack developer assessment
+# Shepherd Full Stack Developer Assessment
 
-### Project startup
+### Project Setup
 
 To install the required dependencies, run:
 
