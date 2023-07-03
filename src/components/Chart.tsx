@@ -1,11 +1,7 @@
-import {
-  Box,
-  Card,
-  Heading,
-} from "@chakra-ui/react";
+import { Box, Card, Heading } from "@chakra-ui/react";
 import { useRef } from "react";
-import BarChart from "../reusables/BarChart";
 
+import BarChart from "../reusables/BarChart";
 import { ShowCase } from "../reusables/ShowCase";
 import {
   barChartDataDailyTraffic,
@@ -27,11 +23,7 @@ export function Chart() {
           background={"transparent"}
           boxShadow={"none"}
         >
-          <Heading
-            as="h2"
-            size="sm"
-            alignSelf={"start"}
-          >
+          <Heading as="h2" size="sm" alignSelf={"start"}>
             Quiz Performance
           </Heading>
           <Box h="240px" mt="auto">

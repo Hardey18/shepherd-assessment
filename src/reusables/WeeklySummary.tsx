@@ -8,6 +8,7 @@ import {
 } from "@chakra-ui/react";
 import { PiCards } from "react-icons/pi";
 import { AiTwotoneThunderbolt } from "react-icons/ai";
+
 import { Performance } from "./Performance";
 import Carousel from "./Carousel";
 

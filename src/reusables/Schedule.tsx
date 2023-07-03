@@ -1,7 +1,6 @@
 import { SimpleGrid, Text } from "@chakra-ui/react";
-import React from "react";
-import { AiTwotoneThunderbolt } from "react-icons/ai";
 import { BiSolidStopwatch } from "react-icons/bi";
+
 import { Calendar } from "../components/Calendar";
 
 export function Schedule() {

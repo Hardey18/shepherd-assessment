@@ -1,4 +1,5 @@
 import { Grid, GridItem } from "@chakra-ui/react";
+
 import { Activity } from "../reusables/Activity";
 import { Schedule } from "../reusables/Schedule";
 

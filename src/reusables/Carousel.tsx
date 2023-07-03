@@ -27,8 +27,7 @@ const settings = {
 export default function Carousel() {
   const [slider, setSlider] = React.useState<Slider | null>(null);
 
-  // These are the breakpoints which changes the position of the
-  // buttons as the screen size changes
+  // These are the breakpoints which changes the position of the buttons
   const top = useBreakpointValue({ base: "90%", md: "50%" });
   const side = useBreakpointValue({ base: "30%", md: "0" });
 

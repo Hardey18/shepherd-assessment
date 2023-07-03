@@ -1,7 +1,5 @@
-import {
-  Grid,
-  GridItem,
-} from "@chakra-ui/react";
+import { Grid, GridItem } from "@chakra-ui/react";
+
 import { WeeklySummary } from "../reusables/WeeklySummary";
 import { Chart } from "./Chart";
 

@@ -17,11 +17,7 @@ export function Layout() {
   const { isOpen, onClose, onOpen } = useDisclosure();
 
   return (
-    <Box
-      as="section"
-      // bg={useColorModeValue("gray.50", "gray.700")}
-      minH="100vh"
-    >
+    <Box as="section" minH="100vh">
       <SidebarContent display={{ base: "none", md: "unset" }} />
       <Drawer isOpen={isOpen} onClose={onClose} placement="left">
         <DrawerOverlay />

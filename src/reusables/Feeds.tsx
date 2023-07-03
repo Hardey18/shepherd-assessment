@@ -1,7 +1,4 @@
 import { Box, SimpleGrid, Text, useColorModeValue } from "@chakra-ui/react";
-import React from "react";
-import { IoIosArrowForward } from "react-icons/io";
-import { AiFillFilePdf } from "react-icons/ai";
 
 export function Feeds({ icon, fileIcon, time, description, documentName }: any) {
   return (

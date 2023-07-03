@@ -1,7 +1,4 @@
 import { Box, Text, useColorModeValue } from "@chakra-ui/react";
-import React from "react";
-import { RxAvatar } from "react-icons/rx";
-import { AiOutlineArrowRight } from "react-icons/ai";
 import { Events } from "./Events";
 
 export function ScheduleFooter() {

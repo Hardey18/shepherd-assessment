@@ -1,5 +1,6 @@
 import { Heading, Stack, Text, useColorModeValue } from "@chakra-ui/react";
 import { BsCloudLightningRainFill } from "react-icons/bs";
+
 import { CircleIcon } from "../reusables/CircleIcon";
 import { FirstSection } from "../components/FirstSection";
 import { SecondSection } from "../components/SecondSection";

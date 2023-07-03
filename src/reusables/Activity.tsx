@@ -1,8 +1,8 @@
-import { SimpleGrid, Text, useColorModeValue } from "@chakra-ui/react";
-import React from "react";
+import { SimpleGrid, Text } from "@chakra-ui/react";
 import { AiFillFilePdf, AiTwotoneThunderbolt } from "react-icons/ai";
 import { HiDocumentText, HiDocumentDuplicate } from "react-icons/hi";
 import { PiReceiptFill } from "react-icons/pi";
+
 import { Feeds } from "./Feeds";
 
 export function Activity() {

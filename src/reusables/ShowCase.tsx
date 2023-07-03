@@ -1,9 +1,5 @@
-import {
-  Box,
-  Flex,
-  useColorModeValue,
-  useColorMode,
-} from "@chakra-ui/react";
+import { Box, Flex, useColorModeValue } from "@chakra-ui/react";
+
 export function ShowCase(props: any) {
   const { children, ...rest } = props;
   // Chakra Color Mode
